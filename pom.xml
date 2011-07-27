@@ -27,7 +27,7 @@
   </dependencies>
 
   <build>
-    <finalName>Jetty-Grizzly</finalName>
+    <finalName>Jersey-Grizzly</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
