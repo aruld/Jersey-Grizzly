@@ -42,6 +42,7 @@ public class GrizzlyServer {
       handlers.put(getBaseURI(resource2ContextPath, port), servletHandler2);
       webServer = Grizzly2WebContainerFactory.createHttpServer(getBaseURI(port), handlers);
       // start Grizzly embedded server //
+      System.out.println("Starting handlers ... " + handlers.keySet());
       webServer.start();
       System.in.read();
     } catch (Exception ex) {
