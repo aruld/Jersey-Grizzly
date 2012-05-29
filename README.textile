@@ -1,0 +1,15 @@
+h1. Jersey-Grizzly Utility API
+
+Utility method that allows to host multiple Jersey resource handlers in Grizzly.
+
+h2. Setup
+
+* git clone https://github.com/aruld/Jersey-Grizzly.git
+* mvn install
+
+h2. Testing
+
+Start the example GrizzlyServer and access these endpoints:
+
+http://127.0.0.1:9999/centigrade/forecastrss?w=12798257
+http://127.0.0.1:9999/fahrenheit/forecastrss?w=12798257
